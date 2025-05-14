@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKATESHOP - Skateboard Starter Kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Homepage</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="about.html">About us</a>
+    </nav>
+    
+    <div class="product-container">
+        <div class="product-gallery">
+            <img src="images/Screenshot_5.jpg" alt="Skateboard Starter Kit" class="main-product-image">
+            <div class="gallery-nav">
+                <span class="arrow">&#10094;</span>
+                <span class="arrow">&#10095;</span>
+            </div>
+        </div>
+        <div class="product-details">
+            <h2>SKATEBOARD STARTER KIT</h2>
+            <p>Complete Skateboard Set for Beginners</p>
+            <hr>
+            
+            <div class="size-selector">
+                <div class="size-option">
+                    <input type="radio" id="size-7.75" name="deck-size" value="7.75">
+                    <label for="size-7.75">7.75</label>
+                </div>
+                <div class="size-option">
+                    <input type="radio" id="size-8.0" name="deck-size" value="8.0" checked>
+                    <label for="size-8.0">8.0</label>
+                </div>
+                <div class="size-option">
+                    <input type="radio" id="size-8.25" name="deck-size" value="8.25">
+                    <label for="size-8.25">8.25</label>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="price">$89.99</div>
+            
+            <div class="quantity-buy-container">
+                <div class="quantity">
+                    <button class="quantity-btn">-</button>
+                    <input type="text" value="1" class="quantity-input">
+                    <button class="quantity-btn">+</button>
+                </div>
+                <button class="btn buy-btn">Buy</button>
+            </div>
+            
+            <hr>
+            
+            <table class="size-chart">
+                <thead>
+                    <tr>
+                        <th>Deck size</th>
+                        <th>Shoe size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7.75</td>
+                        <td>4-9</td>
+                    </tr>
+                    <tr>
+                        <td>8.0</td>
+                        <td>9-11</td>
+                    </tr>
+                    <tr>
+                        <td>8.25</td>
+                        <td>11-13</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 SKATESHOP. All rights reserved.</p>
+        <a href="#">Private Policy</a>
+    </footer>
+</body>
+</html>
